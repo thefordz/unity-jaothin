@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &99110651125204702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99110651125204701}
+  - component: {fileID: 99110651125204699}
+  - component: {fileID: 99110651125204700}
+  m_Layer: 0
+  m_Name: CharacterSectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99110651125204701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99110651125204702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1179.585, y: 811.1273, z: 5.940178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &99110651125204699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99110651125204702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d248e46897404449492bff89dcf648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersData:
+  - {fileID: 11400000, guid: e94c776be5f4dda4ab035fbba10c3259, type: 2}
+  - {fileID: 11400000, guid: f434daac4adc9c647ba0b46c0adc2946, type: 2}
+  m_charactersContainers:
+  - imageContainer: {fileID: 0}
+    nameContainer: {fileID: 0}
+    playerIcon: {fileID: 0}
+    waitingText: {fileID: 0}
+  - imageContainer: {fileID: 0}
+    nameContainer: {fileID: 0}
+    playerIcon: {fileID: 0}
+    waitingText: {fileID: 0}
+  - imageContainer: {fileID: 0}
+    nameContainer: {fileID: 0}
+    playerIcon: {fileID: 0}
+    waitingText: {fileID: 0}
+  - imageContainer: {fileID: 0}
+    nameContainer: {fileID: 0}
+    playerIcon: {fileID: 0}
+    waitingText: {fileID: 0}
+  m_readyButton: {fileID: 0}
+  m_cancelButton: {fileID: 0}
+  m_timeToStartGame: 1
+  m_nextScene: 4
+  m_clientColor: {r: 0.39382124, g: 1, b: 0, a: 0}
+  m_playerColor: {r: 1, g: 0.94471586, b: 0, a: 0}
+  m_playerStates:
+  - playerState: 1
+    playerObject: {fileID: 0}
+    playerName: 
+    clientId: 0
+  - playerState: 1
+    playerObject: {fileID: 0}
+    playerName: 
+    clientId: 0
+  m_playerPrefab: {fileID: 8906612609917802931, guid: 8b9f7a952fb98884b9bc9468276b770d, type: 3}
+--- !u!114 &99110651125204700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99110651125204702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

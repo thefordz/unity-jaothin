@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504b96644611490479a9f01a05470f05, type: 3}
+  m_Name: Orange
+  m_EditorClassIdentifier: 
+  characterSprite: {fileID: 21300000, guid: 02de40383bb2ea540acddad953133b61, type: 3}
+  iconSprite: {fileID: 21300000, guid: 934c3745cf0b0684c8920e9e9e339be3, type: 3}
+  iconDeathSprite: {fileID: 21300000, guid: 934c3745cf0b0684c8920e9e9e339be3, type: 3}
+  characterName: Orange
+  characterPrefab: {fileID: 9172106828670850179, guid: 94323a2190e7df640b7b66da2acde552, type: 3}
+  characterPrefabsScore: {fileID: 454210590990115808, guid: 6b191e864bdeadd469e72ebdbefa539f, type: 3}
+  color: {r: 1, g: 0.72219443, b: 0, a: 0}
+  darkColor: {r: 1, g: 0.36836112, b: 0, a: 0}
+  clientId: 0
+  playerId: 0
+  isSelected: 1
+  foodScore: 0
+  enemyGrid: {fileID: 0}

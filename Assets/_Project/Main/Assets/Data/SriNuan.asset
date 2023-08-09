@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504b96644611490479a9f01a05470f05, type: 3}
+  m_Name: SriNuan
+  m_EditorClassIdentifier: 
+  characterSprite: {fileID: 21300000, guid: 5c916513a9fdea34581cabee639be718, type: 3}
+  iconSprite: {fileID: 21300000, guid: a4b1a4bb662e5654baa0cc2f611de160, type: 3}
+  iconDeathSprite: {fileID: 21300000, guid: a4b1a4bb662e5654baa0cc2f611de160, type: 3}
+  characterName: Cow
+  characterPrefab: {fileID: 8296005470732075236, guid: 70a2d2bfd7f3c28468b6b4a02ad4b5c5, type: 3}
+  characterPrefabsScore: {fileID: 454210590990115808, guid: c937729d4474e6441908789f36f932e9, type: 3}
+  color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0}
+  darkColor: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 0}
+  clientId: 1
+  playerId: 1
+  isSelected: 1
+  foodScore: 0
+  enemyGrid: {fileID: 0}
